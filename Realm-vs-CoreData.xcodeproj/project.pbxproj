@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7C44C0749093C56805B33BED /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A682676816214A24CF4F98 /* libPods.a */; };
-		B8204E931A9C6923008E0556 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B8204E921A9C6923008E0556 /* User.m */; };
+		B8204E951A9C69AA008E0556 /* InsertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8204E941A9C69AA008E0556 /* InsertTests.m */; };
+		B8204E981A9C6DC5008E0556 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B8204E971A9C6DC5008E0556 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,8 +20,9 @@
 		B8204E721A9C672A008E0556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8204E7C1A9C6735008E0556 /* CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8204E7F1A9C6735008E0556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8204E911A9C6923008E0556 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = RealmTests/User.h; sourceTree = SOURCE_ROOT; };
-		B8204E921A9C6923008E0556 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = RealmTests/User.m; sourceTree = SOURCE_ROOT; };
+		B8204E941A9C69AA008E0556 /* InsertTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertTests.m; sourceTree = "<group>"; };
+		B8204E961A9C6DC5008E0556 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = RealmTests/User.h; sourceTree = SOURCE_ROOT; };
+		B8204E971A9C6DC5008E0556 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = RealmTests/User.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		B8204E891A9C6830008E0556 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				B8204E941A9C69AA008E0556 /* InsertTests.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -139,8 +142,8 @@
 		B8B63D3E1A9C64580016FA20 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B8204E911A9C6923008E0556 /* User.h */,
-				B8204E921A9C6923008E0556 /* User.m */,
+				B8204E961A9C6DC5008E0556 /* User.h */,
+				B8204E971A9C6DC5008E0556 /* User.m */,
 			);
 			name = Classes;
 			path = "../Realm-vs-CoreData";
@@ -276,7 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8204E931A9C6923008E0556 /* User.m in Sources */,
+				B8204E981A9C6DC5008E0556 /* User.m in Sources */,
+				B8204E951A9C69AA008E0556 /* InsertTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

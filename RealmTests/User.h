@@ -6,12 +6,18 @@
 //  Copyright (c) 2015年 waft. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import <Realm/Realm.h>
 
 @interface User : RLMObject
 
-@property (nonatomic, strong) NSNumber *userID;
-@property (nonatomic, copy)   NSString *name;
-@property (nonatomic, strong) NSNumber *age;
+@property NSString *name;
+@property NSInteger userID;
+@property NSInteger age;
 
 @end
+
+// This protocol enables typed collections. i.e.:
+// RLMArray<User>
+RLM_ARRAY_TYPE(User)
